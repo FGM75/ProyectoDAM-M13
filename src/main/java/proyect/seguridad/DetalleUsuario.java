@@ -12,12 +12,12 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/estudiantes")
-public class ControladorEstudiante {
+public class DetalleUsuario {
 
     private final RolEstudiante RolEstudiante;
     private final ServicioOferta servicioOferta;
 
-    public ControladorEstudiante(RolEstudiante RolEstudiante, ServicioOferta servicioOferta) {
+    public DetalleUsuario(RolEstudiante RolEstudiante, ServicioOferta servicioOferta) {
         this.RolEstudiante = RolEstudiante;
         this.servicioOferta = servicioOferta;
     }

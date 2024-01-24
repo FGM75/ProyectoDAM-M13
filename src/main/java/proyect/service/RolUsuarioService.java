@@ -1,12 +1,5 @@
 package proyect.service;
 
-import cat.iticbcn.demo.Exception.CompanyNotFoundException;
-import cat.iticbcn.demo.bean.Oferta;
-import cat.iticbcn.demo.bean.UserAuthority;
-import cat.iticbcn.demo.bean.RolEstudiante;
-import cat.iticbcn.demo.dto.UserRegisterDTO;
-import cat.iticbcn.demo.repository.RolEstudianteRepository;
-
 import proyect.exepciones.*;
 import proyect.bean.*;
 import proyect.repository.*;
@@ -19,6 +12,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
+@SuppressWarnings("hiding")
 @Service
 public class RolUsuarioService<RolEstudianteRepository, OfertaService> {
 

@@ -6,16 +6,10 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
-import proyect.bean.Oferta;
-import proyect.bean.RolEstudiante;
-import proyect.bean.*;
+import proyect.*;
 
 import proyect.repository.*;
 import proyect.controller.*;
-import proyect.
-
-import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/estudiantes")
